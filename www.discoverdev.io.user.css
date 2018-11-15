@@ -1,0 +1,5 @@
+@-moz-document domain("www.discoverdev.io") {
+.post-item > .title > a:visited {
+    color: lightblue;
+}
+}
