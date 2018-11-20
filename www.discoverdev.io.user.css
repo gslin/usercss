@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name         www.discoverdev.io
+@namespace    https://github.com/gslin/usercss/www.discoverdev.io.user.css
+@version      0.20181120.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
 @-moz-document domain("www.discoverdev.io") {
 .post-item > .title > a:visited {
     color: lightblue;
