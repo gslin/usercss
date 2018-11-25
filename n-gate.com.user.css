@@ -7,11 +7,14 @@
 ==/UserStyle== */
 
 @-moz-document domain("n-gate.com") {
-body {
-    font-family: sans-serif;
-}
-
 .storylink {
     font-variant: inherit;
+}
+
+a:visited {
+    color: darkgray;
+}
+body {
+    font-family: sans-serif;
 }
 }
