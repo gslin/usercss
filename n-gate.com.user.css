@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         n-gate.com
+@namespace    https://github.com/gslin/usercss/n-gate.com.user.css
+@version      0.20181126.0
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document domain("n-gate.com") {
+body {
+    font-family: sans-serif;
+}
+
+.storylink {
+    font-variant: inherit;
+}
+}
