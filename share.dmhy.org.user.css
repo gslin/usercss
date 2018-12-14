@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           share.dmhy.org
+@namespace      https://github.com/gslin/usercss/blob/master/share.dmhy.org.user.css
+@version        0.20181215.0
+@description    Resize for narrow screen
+@author         Gea-Suan Lin <gslin@gslin.org>
+==/UserStyle== */
+
+@-moz-document domain("share.dmhy.org") {
+    body {
+        zoom: 85%;
+    }
+}
