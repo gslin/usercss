@@ -1,25 +1,31 @@
 /* ==UserStyle==
 @name           pchome.com.tw
 @namespace      https://github.com/gslin/usercss/blob/master/pchome.com.tw.user.css
-@version        0.20181214.0
+@version        0.20181229.0
 @description    Resize for narrow screen
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
-    body {
-        zoom: 83%;
+    @media (max-width: 1200px) {
+        body {
+            zoom: 83%;
+        }
     }
 }
 
 @-moz-document domain("ecshweb.pchome.com.tw") {
-    body {
-        zoom: 83%;
+    @media (max-width: 1200px) {
+        body {
+            zoom: 83%;
+        }
     }
 }
 
 @-moz-document domain("shopping.pchome.com.tw") {
-    body {
-        zoom: 83%;
+    @media (max-width: 1200px) {
+        body {
+            zoom: 83%;
+        }
     }
 }
