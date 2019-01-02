@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           marc.info
+@namespace      https://github.com/gslin/usercss/blob/master/marc.info.user.css
+@version        0.20190102.0
+@description    Use normal fonts
+@author         Gea-Suan Lin <gslin@gslin.org>
+==/UserStyle== */
+
+@-moz-document domain("marc.info") {
+    pre {
+        font-family: monospace;
+        font-weight: normal;
+    }
+}
