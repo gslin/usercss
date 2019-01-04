@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         bazqux.com
 @namespace    https://github.com/gslin/usercss/bazqux.com.user.css
-@version      0.20181122.0
+@version      0.20190104.0
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
 
 @-moz-document domain("bazqux.com") {
-a.msubject:visited {
-    color: darkgray;
-}
+    a.msubject:visited {
+        color: darkgray;
+    }
 }
