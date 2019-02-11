@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           anime1.me
 @namespace      https://github.com/gslin/usercss/anime1.me.user.css
-@version        0.20190212.0
+@version        0.20190212.1
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
 @-moz-document domain("anime1.me") {
-    iframe[src^="https://player.anime1.me/watch"] {
+    article iframe {
         height: 480px;
         width: 720px;
     }
