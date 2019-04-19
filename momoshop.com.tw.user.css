@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           momoshop.com.tw
+@namespace      https://github.com/gslin/usercss/blob/master/momoshop.com.tw.user.css
+@version        0.20190419.0
+@description    Resize for narrow screen
+@author         Gea-Suan Lin <gslin@gslin.org>
+==/UserStyle== */
+
+@-moz-document domain("www.momoshop.com.tw") {
+    @media (max-width: 1200px) {
+        body {
+            zoom: 85%;
+        }
+    }
+    @media (max-width: 1080px) {
+        body {
+            zoom: 75%;
+        }
+    }
+}
