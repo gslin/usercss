@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           linkedin.com
+@namespace      https://github.com/gslin/usercss/blob/master/linkedin.com.user.css
+@version        0.20190831.0
+@description    Resize for narrow screen
+@author         Gea-Suan Lin <gslin@gslin.org>
+==/UserStyle== */
+
+@-moz-document domain("linkedin.com") {
+    @media (max-width: 1200px) {
+        body {
+            zoom: 98%;
+        }
+    }
+    @media (max-width: 1080px) {
+        body {
+            zoom: 88%;
+        }
+    }
+}
