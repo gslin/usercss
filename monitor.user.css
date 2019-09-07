@@ -6,6 +6,19 @@
 @preprocessor   default
 ==/UserStyle== */
 
+@-moz-document domain("24h.pchome.com.tw") {
+    @media (max-width: 1200px) {
+        body {
+            zoom: 92%;
+        }
+    }
+    @media (max-width: 1080px) {
+        body {
+            zoom: 83%;
+        }
+    }
+}
+
 @-moz-document domain("anime1.me") {
     article iframe {
         height: 480px;
@@ -21,9 +34,16 @@
     }
 }
 
-@-moz-document url-prefix("https://www.google.com/search") {
-    body {
-        zoom: 96%;
+@-moz-document domain("ecshweb.pchome.com.tw") {
+    @media (max-width: 1200px) {
+        body {
+            zoom: 92%;
+        }
+    }
+    @media (max-width: 1080px) {
+        body {
+            zoom: 83%;
+        }
     }
 }
 
@@ -40,39 +60,16 @@
     }
 }
 
-@-moz-document domain("www.momoshop.com.tw") {
+@-moz-document domain("share.dmhy.org") {
     @media (max-width: 1200px) {
         body {
             zoom: 85%;
         }
     }
-    @media (max-width: 1080px) {
-        body {
-            zoom: 75%;
-        }
-    }
 }
 
-@-moz-document domain("24h.pchome.com.tw") {
+@-moz-document domain("shopee.tw") {
     @media (max-width: 1200px) {
-        body {
-            zoom: 92%;
-        }
-    }
-    @media (max-width: 1080px) {
-        body {
-            zoom: 83%;
-        }
-    }
-}
-
-@-moz-document domain("ecshweb.pchome.com.tw") {
-    @media (max-width: 1200px) {
-        body {
-            zoom: 92%;
-        }
-    }
-    @media (max-width: 1080px) {
         body {
             zoom: 83%;
         }
@@ -92,18 +89,21 @@
     }
 }
 
-@-moz-document domain("share.dmhy.org") {
+@-moz-document domain("www.momoshop.com.tw") {
     @media (max-width: 1200px) {
         body {
             zoom: 85%;
         }
     }
+    @media (max-width: 1080px) {
+        body {
+            zoom: 75%;
+        }
+    }
 }
 
-@-moz-document domain("shopee.tw") {
-    @media (max-width: 1200px) {
-        body {
-            zoom: 83%;
-        }
+@-moz-document url-prefix("https://www.google.com/search") {
+    body {
+        zoom: 96%;
     }
 }
