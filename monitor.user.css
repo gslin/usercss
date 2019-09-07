@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           anime1.me
-@namespace      https://github.com/gslin/usercss/anime1.me.user.css
-@version        0.20190212.1
+@name           Resize for monitor rotation
+@namespace      https://github.com/gslin/usercss/monitor.user.css
+@version        0.20190908.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -13,14 +13,6 @@
     }
 }
 
-/* ==UserStyle==
-@name           atlassian.net
-@namespace      https://github.com/gslin/usercss/blob/master/atlassian.net.user.css
-@version        0.20181231.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
-
 @-moz-document domain("atlassian.net") {
     @media (max-width: 1200px) {
         body {
@@ -29,27 +21,11 @@
     }
 }
 
-/* ==UserStyle==
-@name           Google Search Zoom
-@namespace      https://github.com/gslin/usercss/blob/master/google.com.user.css
-@version        0.10290110.0
-@description    Google Search Zoom
-@author         Gea-Suan Lin <darkkiller@gmail.com>
-==/UserStyle== */
-
 @-moz-document url-prefix("https://www.google.com/search") {
     body {
         zoom: 96%;
     }
 }
-
-/* ==UserStyle==
-@name           linkedin.com
-@namespace      https://github.com/gslin/usercss/blob/master/linkedin.com.user.css
-@version        0.20190831.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
 
 @-moz-document domain("linkedin.com") {
     @media (max-width: 1200px) {
@@ -64,14 +40,6 @@
     }
 }
 
-/* ==UserStyle==
-@name           momoshop.com.tw
-@namespace      https://github.com/gslin/usercss/blob/master/momoshop.com.tw.user.css
-@version        0.20190419.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
-
 @-moz-document domain("www.momoshop.com.tw") {
     @media (max-width: 1200px) {
         body {
@@ -84,14 +52,6 @@
         }
     }
 }
-
-/* ==UserStyle==
-@name           pchome.com.tw
-@namespace      https://github.com/gslin/usercss/blob/master/pchome.com.tw.user.css
-@version        0.20190130.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
     @media (max-width: 1200px) {
@@ -132,14 +92,6 @@
     }
 }
 
-/* ==UserStyle==
-@name           share.dmhy.org
-@namespace      https://github.com/gslin/usercss/blob/master/share.dmhy.org.user.css
-@version        0.20181229.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
-
 @-moz-document domain("share.dmhy.org") {
     @media (max-width: 1200px) {
         body {
@@ -147,14 +99,6 @@
         }
     }
 }
-
-/* ==UserStyle==
-@name           shopee.tw
-@namespace      https://github.com/gslin/usercss/blob/master/shopee.tw.user.css
-@version        0.20181229.0
-@description    Resize for narrow screen
-@author         Gea-Suan Lin <gslin@gslin.org>
-==/UserStyle== */
 
 @-moz-document domain("shopee.tw") {
     @media (max-width: 1200px) {
