@@ -89,6 +89,14 @@
     }
 }
 
+@-moz-document domain("tw.news.yahoo.com") {
+    @media (max-width: 1080px) {
+        body {
+            zoom: 90%;
+        }
+    }
+}
+
 @-moz-document domain("www.momoshop.com.tw") {
     @media (max-width: 1200px) {
         body {
