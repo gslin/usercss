@@ -34,6 +34,14 @@
     }
 }
 
+@-moz-document domain("console.aws.amazon.com") {
+    @media (max-width: 1080px) {
+        body {
+            zoom: 90%;
+        }
+    }
+}
+
 @-moz-document domain("ecshweb.pchome.com.tw") {
     @media (max-width: 1200px) {
         body {
