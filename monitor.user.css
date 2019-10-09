@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20191008.0
+@version        0.20191009.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -30,14 +30,6 @@
     @media (max-width: 1200px) {
         body {
             zoom: 94%;
-        }
-    }
-}
-
-@-moz-document domain("console.aws.amazon.com") {
-    @media (max-width: 1080px) {
-        body {
-            zoom: 90%;
         }
     }
 }
