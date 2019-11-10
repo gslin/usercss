@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20191009.0
+@version        0.20191111.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -43,6 +43,19 @@
     @media (max-width: 1080px) {
         body {
             zoom: 83%;
+        }
+    }
+}
+
+@-moz-document domain("github.com") {
+    @media (max-width: 1200px) {
+        .js-calendar-graph-svg {
+            zoom: 95%;
+        }
+    }
+    @media (max-width: 1080px) {
+        .js-calendar-graph-svg {
+            zoom: 85%;
         }
     }
 }
