@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           www.bookwalker.com.tw
+@namespace      https://github.com/gslin/usercss/www.bookwalker.com.tw.user.css
+@version        0.20200201.0
+@license        MIT
+@preprocessor   default
+==/UserStyle== */
+
+@-moz-document domain("www.bookwalker.com.tw") {
+    .bookname {
+        height: unset;
+    }
+}
