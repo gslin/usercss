@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           font-variant-ligatures.user.css
 @namespace      https://github.com/gslin/usercss/font-variant-ligatures.user.css
-@version        0.20200518.0
+@version        0.20200518.1
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
-@-moz-document {
+@-moz-document domain("") {
     * {
         font-variant-ligatures: none;
     }
