@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           shopee.tw
+@namespace      https://github.com/gslin/usercss/shopee.tw.user.css
+@version        0.20200619.0
+@description    shopee.tw
+@author         Gea-Suan Lin <gslin@gslin.org>
+==/UserStyle== */
+
+@-moz-document domain("shopee.tw") {
+    div[data-sqe="name"] {
+        height: auto;
+    }
+    div[data-sqe="name"] > div {
+        -webkit-line-clamp: unset !important;
+    }
+}
