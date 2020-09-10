@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           shopee.tw
 @namespace      https://github.com/gslin/usercss/shopee.tw.user.css
-@version        0.20200619.0
+@version        0.20200910.0
 @description    shopee.tw
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -12,5 +12,6 @@
     }
     div[data-sqe="name"] > div {
         -webkit-line-clamp: unset !important;
+        white-space: normal !important;
     }
 }
