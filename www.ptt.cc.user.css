@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           www.ptt.cc
 @namespace      https://github.com/gslin/usercss/blob/master/www.ptt.cc.user.css
-@version        0.20200925.0
+@version        0.20200927.0
 @description    Monospace for main content
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
 
 @-moz-document domain("www.ptt.cc") {
     #main-content {
-        font-family: "Noto Sans Mono CJK TC";
+        font-family: "Noto Sans Mono CJK TC", monospace;
     }
     .article-metaline {
         line-height: 1.4em;
