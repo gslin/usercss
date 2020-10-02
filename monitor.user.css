@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20201003.0
+@version        0.20201003.1
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -106,12 +106,12 @@
 @-moz-document domain("www.momoshop.com.tw") {
     @media (max-width: 1200px) {
         body {
-            zoom: 85%;
+            zoom: 97%;
         }
     }
     @media (max-width: 1080px) {
         body {
-            zoom: 75%;
+            zoom: 87%;
         }
     }
 }
