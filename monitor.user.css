@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20201003.1
+@version        0.20201004.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -125,9 +125,14 @@
 }
 
 @-moz-document url-prefix("https://www.google.com/search") {
+    @media (max-width: 1200px) {
+        body {
+            zoom: 94%;
+        }
+    }
     @media (max-width: 1080px) {
         body {
-            zoom: 96%;
+            zoom: 85%;
         }
     }
 }
