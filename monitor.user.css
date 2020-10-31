@@ -1,19 +1,19 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20201020.0
+@version        0.20201031.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 92%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 83%;
         }
     }
@@ -21,7 +21,7 @@
 
 @-moz-document domain("atlassian.net") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 94%;
         }
     }
@@ -29,12 +29,12 @@
 
 @-moz-document domain("ecshweb.pchome.com.tw") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 92%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 83%;
         }
     }
@@ -55,12 +55,12 @@
 
 @-moz-document domain("linkedin.com") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 99%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 88%;
         }
     }
@@ -68,7 +68,7 @@
 
 @-moz-document domain("share.dmhy.org") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 85%;
         }
     }
@@ -76,7 +76,7 @@
 
 @-moz-document domain("shopee.tw") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 83%;
         }
     }
@@ -84,12 +84,12 @@
 
 @-moz-document domain("shopping.pchome.com.tw") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 92%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 83%;
         }
     }
@@ -97,7 +97,7 @@
 
 @-moz-document domain("tw.news.yahoo.com") {
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 90%;
         }
     }
@@ -105,12 +105,12 @@
 
 @-moz-document domain("www.momoshop.com.tw") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 97%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 87%;
         }
     }
@@ -118,7 +118,7 @@
 
 @-moz-document domain("www.ptt.cc") {
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 90%;
         }
     }
@@ -126,12 +126,12 @@
 
 @-moz-document url-prefix("https://www.google.com/search") {
     @media (max-width: 1200px) {
-        body {
+        html {
             zoom: 94%;
         }
     }
     @media (max-width: 1080px) {
-        body {
+        html {
             zoom: 83%;
         }
     }
