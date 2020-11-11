@@ -103,19 +103,6 @@
     }
 }
 
-@-moz-document domain("www.momoshop.com.tw") {
-    @media (max-width: 1200px) {
-        html {
-            zoom: 97%;
-        }
-    }
-    @media (max-width: 1080px) {
-        html {
-            zoom: 87%;
-        }
-    }
-}
-
 @-moz-document domain("www.ptt.cc") {
     @media (max-width: 1080px) {
         html {
