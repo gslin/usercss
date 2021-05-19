@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Clear dollar sign in foodpanda
+@namespace      https://github.com/gslin/usercss/blob/master/foodpanda.com.tw.user.css
+@version        0.20210519.0
+@description    Clear dollar sign in foodpanda
+@author         Gea-Suan Lin <gslin@gslin.com>
+==/UserStyle== */
+
+@-moz-document domain("foodpanda.com.tw") {
+    ul.categories.summary > li:first-of-type > span:not(.budget-symbol--filled) {
+        display: none;
+    }
+}
