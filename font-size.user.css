@@ -7,5 +7,7 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-    font-size: 110%;
+    body {
+        font-size: 110%;
+    }
 }
