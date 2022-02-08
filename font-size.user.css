@@ -7,7 +7,10 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-    .subtext, .title {
+    .subtext {
+        font-size: 0.8em;
+    }
+    .title {
         font-size: 0.85em;
     }
 }
