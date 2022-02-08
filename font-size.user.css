@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Enlarge via font size
 @namespace      https://github.com/gslin/usercss/font-size.user.css
-@version        0.20220208.1
+@version        0.20220208.2
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://news.ycombinator.com/") {
-    body {
-        font-size: 110%;
+    .subtext, .title {
+        font-size: 0.8em;
     }
 }
