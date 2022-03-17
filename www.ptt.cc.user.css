@@ -8,7 +8,7 @@
 
 @-moz-document domain("www.ptt.cc") {
     #main-content {
-        font-family: "JetBrains Mono", "Noto Sans Mono CJK JP", monospace;
+        font-family: "Noto Sans Mono CJK JP", monospace;
         line-height: 1.2em;
     }
     .article-metaline {
