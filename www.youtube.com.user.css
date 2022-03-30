@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           www.youtube.com
 @namespace      https://github.com/gslin/usercss/blob/master/www.youtube.com.user.css
-@version        0.20220331.0
+@version        0.20220331.1
 @description    Custom CSS for www.youtube.com
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
 
 @-moz-document domain("www.youtube.com") {
     #info-text {
-        overflow: inherit;
+        overflow: inherit !important;
     }
 }
