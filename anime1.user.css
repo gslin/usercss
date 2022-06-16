@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name           Usercss for anime1
 @namespace      https://github.com/gslin/usercss/anime1.user.css
-@version        0.20220616.0
+@version        0.20220616.1
 @description    Usercss for anime1
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
 
-@-moz-document regexp("^https://anime1\.me/\d+") {
+@-moz-document regexp("^https://anime1\.(me|pw)/\d+") {
     #primary {
         width: 100%;
     }
