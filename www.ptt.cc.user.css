@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           www.ptt.cc
 @namespace      https://github.com/gslin/usercss/blob/master/www.ptt.cc.user.css
-@version        0.20220317.0
+@version        0.20220712.0
 @description    Monospace for main content
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -13,5 +13,8 @@
     }
     .article-metaline {
         line-height: 1.4em;
+    }
+    img {
+        max-height: none;
     }
 }
