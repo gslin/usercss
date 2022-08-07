@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20220807.0
+@version        0.20220803.1
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -9,9 +9,8 @@
 @-moz-document domain("24h.pchome.com.tw") {
     @media (max-width: 1200px) {
         html {
-            margin-left: -3%;
-            margin-top: -54px;
             transform: scale(0.94, 0.94);
+            transform-origin: left top;
         }
     }
     @media (max-width: 1080px) {
@@ -32,10 +31,8 @@
 @-moz-document domain("ecshweb.pchome.com.tw") {
     @media (max-width: 1200px) {
         html {
-            /* zoom: 92%; */
-            margin-left: -3%;
-            margin-top: -54px;
             transform: scale(0.94, 0.94);
+            transform-origin: left top;
         }
     }
     @media (max-width: 1080px) {
