@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20220803.1
+@version        0.20220808.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
@@ -78,6 +78,15 @@
     @media (max-width: 1080px) {
         html {
             transform: scale(0.88);
+            transform-origin: 0 0;
+        }
+    }
+}
+
+@-moz-document domain("rent.591.com.tw") {
+    @media (max-width: 1200px) {
+        html {
+            transform: scale(0.94);
             transform-origin: 0 0;
         }
     }
