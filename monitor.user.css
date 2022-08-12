@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Resize for monitor rotation
 @namespace      https://github.com/gslin/usercss/monitor.user.css
-@version        0.20220808.2
+@version        0.20220813.0
 @license        MIT
 @preprocessor   default
 ==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
     @media (max-width: 1200px) {
-        html {
+        body > * {
             transform: scale(0.94, 0.94);
             transform-origin: left top;
         }
@@ -30,7 +30,7 @@
 
 @-moz-document domain("ecshweb.pchome.com.tw") {
     @media (max-width: 1200px) {
-        html {
+        body > * {
             transform: scale(0.94, 0.94);
             transform-origin: left top;
         }
@@ -70,13 +70,13 @@
 
 @-moz-document domain("momoshop.com.tw") {
     @media (max-width: 1200px) {
-        html {
+        body > * {
             transform: scale(0.97);
             transform-origin: 0 0;
         }
     }
     @media (max-width: 1080px) {
-        html {
+        body > * {
             transform: scale(0.88);
             transform-origin: 0 0;
         }
