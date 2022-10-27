@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20201003.0
+@version        0.20221027.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -12,5 +12,12 @@
     }
     .s_ticrf:before {
         background: none !important;
+    }
+}
+
+@-moz-document domain("ecvip.pchome.com.tw") {
+    /* Hide cancelled transactions */ 
+    :is(.order_table, .order_table_y):has(td[width="57"]:empty) {
+        display: none;
     }
 }
