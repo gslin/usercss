@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           GitHub fonts
 @namespace      https://github.com/gslin/usercss/github.user.css
-@version        0.20221219.0
+@version        0.20221219.1
 @description    Modify GitHub's fonts
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
-    body {
+    .markdown-body, body {
         font-family: sans-serif;
     }
 }
