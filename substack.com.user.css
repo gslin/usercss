@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           substack.com usercss
+@namespace      https://github.com/gslin/usercss/raw/master/substack.com.user.css
+@version        0.20230101.0
+@description    substack.com usercss
+@author         Gea-Suan Lin <gslin@gslin.com>
+==/UserStyle== */
+
+@-moz-document domain("substack.com") {
+    body {
+        font-family: serif;
+    }
+}
