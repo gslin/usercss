@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Usercss for anime1
 @namespace      https://github.com/gslin/usercss/anime1.user.css
-@version        0.20220913.0
+@version        0.20230121.0
 @description    Usercss for anime1
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -16,8 +16,5 @@
     .player-space, .vjscontainer {
         height: 100%;
         max-width: 100%;
-    }
-    .video-js .vjs-control-bar {
-        position: relative;
     }
 }
