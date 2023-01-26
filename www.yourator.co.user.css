@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Yourator CSS
+@namespace      https://github.com/gslin/usercss/raw/master/www.yourator.co.user.css
+@version        0.20230127.0
+@description    Yourator CSS
+@author         Gea-Suan Lin <gslin@gslin.com>
+==/UserStyle== */
+
+@-moz-document domain("www.yourator.co") {
+    html {
+        overflow: auto !important;
+        padding-right: 0 !important;
+    }
+}
