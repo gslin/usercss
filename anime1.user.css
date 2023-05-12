@@ -17,4 +17,14 @@
         height: auto;
         max-width: none;
     }
+    .video-js {
+        height: auto!important;
+    }
+    .vjs-control-bar {
+        opacity: 1!important;
+        position: relative!important;
+    }
+    video {
+        height: auto!important;
+    }
 }
