@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Usercss for anime1
 @namespace      https://github.com/gslin/usercss/anime1.user.css
-@version        0.20230513.1
+@version        0.20230513.2
 @description    Usercss for anime1
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -23,6 +23,9 @@
     .vjs-control-bar {
         opacity: 1!important;
         position: relative!important;
+    }
+    .vjscontainer > div:last-child {
+        display: none!important;
     }
     video {
         height: auto!important;
