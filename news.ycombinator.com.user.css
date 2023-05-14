@@ -1,15 +1,12 @@
 /* ==UserStyle==
 @name           UserCSS for news.ycombinator.com
 @namespace      https://github.com/gslin/usercss/raw/master/news.ycombinator.com.user.css
-@version        0.20230303.0
+@version        0.20230514.0
 @description    UserCSS for news.ycombinator.com
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
 
 @-moz-document domain("news.ycombinator.com") {
-    .comment, .title {
-        font-family: sans-serif;
-    }
     .comment-tree tr > td:nth-of-type(2) {
         border-left: 1px solid #bbb;
         padding-left: 0.5em;
