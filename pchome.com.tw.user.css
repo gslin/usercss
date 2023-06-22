@@ -1,10 +1,20 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20221031.0
+@version        0.20230622.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
+
+@-moz-document domain("24h.pchome.com.tw") {
+    div.c-prodBriefing__sloganInfo {
+        cursor: unset !important;
+        max-height: none !important;
+    }
+    div.c-prodBriefing__slogan > button {
+        display: none;
+    }
+}
 
 @-moz-document domain("ecshweb.pchome.com.tw") {
     .s_list .prod_img .s_ticrf+img {
