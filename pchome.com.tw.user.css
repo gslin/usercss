@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230622.0
+@version        0.20230701.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -13,6 +13,14 @@
     }
     div.c-prodBriefing__slogan > button {
         display: none;
+    }
+    div.c-prodInfo__body {
+        height: unset !important;
+    }
+    div.c-prodInfo__title {
+        -webkit-line-clamp: unset !important;
+        height: 100% !important;
+        overflow: visible !important;
     }
 }
 
