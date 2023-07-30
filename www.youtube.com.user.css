@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           www.youtube.com
 @namespace      https://github.com/gslin/usercss/blob/master/www.youtube.com.user.css
-@version        0.20220331.1
+@version        0.20220730.0
 @description    Custom CSS for www.youtube.com
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -9,5 +9,10 @@
 @-moz-document domain("www.youtube.com") {
     #info-text {
         overflow: inherit !important;
+    }
+    h1.ytd-watch-metadata {
+        -webkit-line-clamp: unset;
+        line-height: unset;
+        max-height: unset;
     }
 }
