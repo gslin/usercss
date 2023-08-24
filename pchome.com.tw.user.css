@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230701.0
+@version        0.20230824.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -21,14 +21,5 @@
         -webkit-line-clamp: unset !important;
         height: 100% !important;
         overflow: visible !important;
-    }
-}
-
-@-moz-document domain("ecshweb.pchome.com.tw") {
-    .s_list .prod_img .s_ticrf+img {
-        opacity: 1 !important;
-    }
-    .s_ticrf:before {
-        background: none !important;
     }
 }
