@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230828.0
+@version        0.20230828.1
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -21,5 +21,8 @@
         -webkit-line-clamp: unset !important;
         height: auto !important;
         overflow: visible !important;
+    }
+    div.c-filterProd__item:has(i.o-iconFonts--actionBell) {
+        background-color: lightgrey;
     }
 }
