@@ -7,9 +7,16 @@
 ==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
+    /*
+     * Reset scroll bar styles.
+     */
     body::-webkit-scrollbar {
         all: unset;
     }
+
+    /*
+     * Reset cursor on product's description, unscroll it and hide "expand" button.
+     */
     div.c-prodBriefing__sloganInfo {
         cursor: unset !important;
         max-height: none !important;
@@ -20,11 +27,19 @@
     div.c-prodInfo__body {
         height: unset !important;
     }
+
+    /*
+     * Show full product's title.
+     */
     div.c-prodInfo__title {
         -webkit-line-clamp: unset !important;
         height: auto !important;
         overflow: visible !important;
     }
+
+    /*
+     * Make sold-out products more clear.
+     */
     div.c-filterProd__item:has(i.o-iconFonts--actionBell) {
         background-color: lightgrey;
     }
