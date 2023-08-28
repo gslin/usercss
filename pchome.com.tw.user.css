@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230824.0
+@version        0.20230828.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -19,7 +19,7 @@
     }
     div.c-prodInfo__title {
         -webkit-line-clamp: unset !important;
-        height: 100% !important;
+        height: auto !important;
         overflow: visible !important;
     }
 }
