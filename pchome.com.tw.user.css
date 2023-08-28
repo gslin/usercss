@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230828.3
+@version        0.20230828.4
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -42,5 +42,15 @@
      */
     div.c-filterProd__item:has(i.o-iconFonts--actionBell) {
         background-color: lightgrey;
+    }
+
+    /*
+     * List all categories by default, and hide "expand" button.
+     */
+    div.c-sideMenu__menu button {
+        display: none;
+    }
+    li.c-sideMenu__item.is-hide {
+        display: block;
     }
 }
