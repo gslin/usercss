@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230828.2
+@version        0.20230828.3
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -18,23 +18,23 @@
      * Reset cursor on product's description, unscroll it and hide "expand" button.
      */
     div.c-prodBriefing__sloganInfo {
-        cursor: unset !important;
-        max-height: none !important;
+        cursor: unset;
+        max-height: none;
     }
     div.c-prodBriefing__slogan > button {
         display: none;
     }
     div.c-prodInfo__body {
-        height: unset !important;
+        height: unset;
     }
 
     /*
      * Show full product's title.
      */
     div.c-prodInfo__title {
-        -webkit-line-clamp: unset !important;
+        -webkit-line-clamp: unset;
         height: auto !important;
-        overflow: visible !important;
+        overflow: visible;
     }
 
     /*
