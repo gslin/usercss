@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UserCSS for news.ycombinator.com
 @namespace      https://github.com/gslin/usercss/raw/master/news.ycombinator.com.user.css
-@version        0.20230515.0
+@version        0.20231204.0
 @description    UserCSS for news.ycombinator.com
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -13,5 +13,8 @@
     }
     .comment, .subject, .title, body {
         font-family: sans-serif;
+    }
+    td {
+        word-break: break-word;
     }
 }
