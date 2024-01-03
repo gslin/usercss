@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           UserCSS for ebus.gov.taipei
+@namespace      https://github.com/gslin/usercss/blob/master/ebus.gov.taipei.user.css
+@version        0.20240103.0
+@description    UserCSS for ebus.gov.taipei
+@author         Gea-Suan Lin <gslin@gslin.com>
+==/UserStyle== */
+
+@-moz-document domain("ebus.gov.taipei") {
+    .auto-list-pool.routelist-list-pool.mCustomScrollbar._mCS_1 {
+        height: unset !important;
+        max-height: unset !important;
+    }
+    #mCSB_1 {
+        max-height: unset !important;
+    }
+}
