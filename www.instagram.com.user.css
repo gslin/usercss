@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Instagram CSS
 @namespace      https://github.com/gslin/usercss/instagram.user.css
-@version        0.20230522.0
+@version        0.20240216.0
 @description    Instagram UserCSS
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -12,5 +12,8 @@
     article > div > div:last-child section + div:hover {
         opacity: 1;
         transition: opacity 0.1s;
+    }
+    article div {
+        transition: unset !important;
     }
 }
