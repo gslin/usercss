@@ -1,40 +1,21 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20230907.0
+@version        0.20240518.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
 
 @-moz-document domain("24h.pchome.com.tw") {
     /*
-     * Reset scroll bar styles.
-     */
-    body::-webkit-scrollbar {
-        all: unset;
-    }
-
-    /*
      * Reset cursor on product's description, unscroll it and hide "expand" button.
      */
-    div.c-prodBriefing__sloganInfo {
+    div.c-blockCombine__info--prodSlogan {
         cursor: unset;
         max-height: none;
     }
-    div.c-prodBriefing__slogan > button {
+    div.c-blockCombine--prodSlogan > button {
         display: none;
-    }
-    div.c-prodInfo__body {
-        height: unset;
-    }
-
-    /*
-     * Show full product's title.
-     */
-    div.c-prodInfo__title {
-        -webkit-line-clamp: unset;
-        height: auto !important;
-        overflow: visible;
     }
 
     /*
@@ -47,10 +28,10 @@
     /*
      * List all categories by default, and hide "expand" button.
      */
-    div.c-sideMenu__menu button {
+    div.c-menuList button {
         display: none;
     }
-    li.c-sideMenu__item.is-hide {
+    li.c-menuList__item.is-hide {
         display: block;
     }
 }
