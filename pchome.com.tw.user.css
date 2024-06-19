@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20240518.0
+@version        0.20240620.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -21,7 +21,7 @@
     /*
      * Make sold-out products more clear.
      */
-    div.c-filterProd__item:has(i.o-iconFonts--actionBell), div.c-filterProd__item:has(li.is-disabled), div.c-prodInfo:has(i.o-iconFonts--actionBell) {
+    div.c-prodInfoV2:has(li.is-disabled) {
         background-color: lightgrey;
     }
 
