@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           nyaa.si
+@namespace      https://github.com/gslin/usercss/nyaa.si
+@version        0.20240710.0
+@description    nyaa.si's usercss
+@author         Gea-Suan Lin <gslin@gslin.com>
+==/UserStyle== */
+
+@-moz-document domain("nyaa.si") {
+    .container {
+        width: 100%;
+    }
+}
