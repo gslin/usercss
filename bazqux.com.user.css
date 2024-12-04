@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         bazqux.com
 @namespace    https://github.com/gslin/usercss/bazqux.com.user.css
-@version      0.20241204.0
+@version      0.20241204.1
 @license      MIT
 @preprocessor default
 ==/UserStyle== */
@@ -10,7 +10,7 @@
     a.msubject:visited {
         color: darkgray;
     }
-    div.mauthor {
+    div.mauthor, div.mauthor a[href] {
         color: cadetblue;
     }
 }
