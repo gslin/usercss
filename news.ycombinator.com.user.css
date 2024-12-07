@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UserCSS for news.ycombinator.com
 @namespace      https://github.com/gslin/usercss/raw/master/news.ycombinator.com.user.css
-@version        0.20241007.0
+@version        0.20241007.1
 @description    UserCSS for news.ycombinator.com
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -11,7 +11,7 @@
         font-family: sans-serif;
     }
     .comment-tree tr > td:nth-of-type(2) {
-        border-left: 1px solid #bbb;
+        border-left: 3px solid #bbb;
         padding-left: 0.5em;
     }
     #hnmain > tbody > tr > td {
