@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           PChome CSS
 @namespace      https://github.com/gslin/usercss/pchome.user.css
-@version        0.20240620.0
+@version        0.20250305.0
 @description    PChome CSS
 @author         Gea-Suan Lin <gslin@gslin.org>
 ==/UserStyle== */
@@ -33,5 +33,15 @@
     }
     li.c-menuList__item.is-hide {
         display: block;
+    }
+
+    /*
+     * Show all descriptions.
+     */
+    .c-prodInfoV2__prodStateLabel {
+        position: initial;
+    }
+    .c-prodInfoV2__title {
+        -webkit-line-clamp: initial !important;
     }
 }
