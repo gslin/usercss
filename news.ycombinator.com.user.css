@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           UserCSS for news.ycombinator.com
 @namespace      https://github.com/gslin/usercss/raw/master/news.ycombinator.com.user.css
-@version        0.20250322.0
+@version        0.20250507.0
 @description    UserCSS for news.ycombinator.com
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
@@ -19,5 +19,8 @@
     }
     #hnmain > tbody > tr > td {
         padding-right: 0.5em;
+    }
+    textarea {
+        width: 95%;
     }
 }
