@@ -1,11 +1,11 @@
 /* ==UserStyle==
 @name           Instagram CSS
 @namespace      https://github.com/gslin/usercss/instagram.user.css
-@version        0.20240216.0
+@version        0.20250530.0
 @description    Instagram UserCSS
 @author         Gea-Suan Lin <gslin@gslin.com>
 ==/UserStyle== */
-@-moz-document url-prefix("https://www.instagram.com/p/") {
+@-moz-document url-prefix("https://www.instagram.com/") {
     article > div > div:last-child section + div {
         opacity: 0.05;
     }
